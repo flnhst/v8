@@ -1,0 +1,28 @@
+V8 changes.
+
+- See the heap-api-stub.cc file for fixes for unresolved externals.
+    - Overwrite src/heap/third-party/heap-api-stub.cc
+- Various warnings ignored by pragma.
+
+- DLLs to copy:
+    - icui18n.dll
+    - zlib.dll
+
+- Unit tests
+    - Failing at: isolate-allocator.cc:137:
+        - CHECK(GetProcessWidePtrComprCage()->IsReserved());
+        - Fixed with gen flag.
+    - Runs on Linux:
+        ./unittests --gtest_filter=-SignalHandlerFallbackTest.DoTest:Traps/TrapHandlerTest.*
+    - Runs on Windows:
+        unittests.exe --gtest_filter=-ExceptionHandlerFallbackTest.DoTest:Traps/TrapHandlerTest.*
+
+- Based on stable version found via: 9.6.180.12
+    - See https://omahaproxy.appspot.com/
+    - See https://v8.dev/docs/version-numbers
+
+05/11/2022
+
+- Updated to version 10.7.193.18.
+
+

@@ -2420,6 +2420,19 @@ Local<Module> Module::CreateSyntheticModule(
           i_module_name, i_export_names, evaluation_steps)));
 }
 
+Local<Module> Module::CreateSyntheticModule(
+    Isolate* isolate, Local<String> module_name,
+    Local<String>* export_names, std::size_t export_names_length,
+    SyntheticModuleEvaluationSteps evaluation_steps)
+{
+  EscapableHandleScope scope{ isolate };
+
+  std::vector<Local<String>> local_export_names{export_names, &export_names[export_names_length]};
+
+  return scope.Escape(CreateSyntheticModule(isolate, module_name, local_export_names, evaluation_steps));
+}
+
+
 Maybe<bool> Module::SetSyntheticModuleExport(Isolate* v8_isolate,
                                              Local<String> export_name,
                                              Local<v8::Value> export_value) {

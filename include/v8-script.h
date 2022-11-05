@@ -281,6 +281,11 @@ class V8_EXPORT Module : public Data {
       const std::vector<Local<String>>& export_names,
       SyntheticModuleEvaluationSteps evaluation_steps);
 
+  static Local<Module> CreateSyntheticModule(
+      Isolate* isolate, Local<String> module_name,
+      Local<String>* export_names, std::size_t export_names_length,
+      SyntheticModuleEvaluationSteps evaluation_steps);
+
   /**
    * Set this module's exported value for the name export_name to the specified
    * export_value. This method must be called only on Modules created via
