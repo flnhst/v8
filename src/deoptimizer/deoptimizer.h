@@ -110,8 +110,10 @@ class Deoptimizer : public Malloced {
                                     DeoptimizeKind* type_out);
 
   // Code generation support.
+#ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
+#endif
   static int input_offset() { return offsetof(Deoptimizer, input_); }
   static int output_count_offset() {
     return offsetof(Deoptimizer, output_count_);
@@ -121,7 +123,9 @@ class Deoptimizer : public Malloced {
   static int caller_frame_top_offset() {
     return offsetof(Deoptimizer, caller_frame_top_);
   }
+#ifdef __clang__
 #pragma clang diagnostic pop
+#endif
 
   V8_EXPORT_PRIVATE static int GetDeoptimizedCodeCount(Isolate* isolate);
 
