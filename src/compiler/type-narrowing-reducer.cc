@@ -7,6 +7,8 @@
 #include "src/compiler/js-graph.h"
 #include "src/compiler/js-heap-broker.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 namespace compiler {

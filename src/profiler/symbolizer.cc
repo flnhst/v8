@@ -9,6 +9,8 @@
 #include "src/profiler/profiler-stats.h"
 #include "src/profiler/tick-sample.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

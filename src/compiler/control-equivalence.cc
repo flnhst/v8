@@ -10,6 +10,8 @@
     if (FLAG_trace_turbo_ceq) PrintF(__VA_ARGS__); \
   } while (false)
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 namespace compiler {

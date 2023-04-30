@@ -7,6 +7,8 @@
 #include "src/codegen/interface-descriptors-inl.h"
 #include "src/codegen/macro-assembler.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

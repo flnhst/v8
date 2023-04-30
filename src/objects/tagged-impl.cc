@@ -17,6 +17,8 @@
 #include "src/heap/heap-write-barrier-inl.h"
 #endif
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

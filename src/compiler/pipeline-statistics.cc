@@ -10,6 +10,8 @@
 #include "src/compiler/zone-stats.h"
 #include "src/objects/shared-function-info.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 namespace compiler {

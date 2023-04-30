@@ -8,6 +8,8 @@
 #include "src/base/macros.h"
 #include "src/heap/local-heap.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

@@ -19,6 +19,8 @@
 #include "src/compiler/wasm-compiler-definitions.h"
 #endif
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 namespace compiler {

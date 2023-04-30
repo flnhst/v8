@@ -6,6 +6,8 @@
 #include "src/codegen/macro-assembler.h"
 #include "src/common/globals.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

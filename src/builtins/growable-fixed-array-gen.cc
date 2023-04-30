@@ -6,6 +6,8 @@
 
 #include "src/compiler/code-assembler.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

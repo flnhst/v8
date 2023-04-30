@@ -19,6 +19,8 @@
 #include "src/tasks/cancelable-task.h"
 #include "src/tracing/trace-event.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

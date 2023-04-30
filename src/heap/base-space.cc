@@ -4,6 +4,8 @@
 
 #include "src/heap/base-space.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

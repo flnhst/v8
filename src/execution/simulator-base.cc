@@ -9,6 +9,8 @@
 
 #if defined(USE_SIMULATOR)
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

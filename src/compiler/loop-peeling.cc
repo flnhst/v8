@@ -101,6 +101,8 @@
 // Note that the boxes ((===)) above are not explicitly represented in the
 // graph, but are instead computed by the {LoopFinder}.
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 namespace compiler {

@@ -8,6 +8,8 @@
 #include "src/compiler/node-properties.h"
 #include "src/compiler/opcodes.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 namespace compiler {

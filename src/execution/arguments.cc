@@ -3,3 +3,5 @@
 // found in the LICENSE file.
 
 #include "src/execution/arguments.h"
+
+#include "src/objects/fixed-array-inl.h"

@@ -5,6 +5,8 @@
 #include "src/compiler/backend/x64/unwinding-info-writer-x64.h"
 #include "src/compiler/backend/instruction.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 namespace compiler {

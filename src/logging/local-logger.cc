@@ -7,6 +7,8 @@
 #include "src/execution/isolate.h"
 #include "src/objects/map.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

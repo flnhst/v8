@@ -11,6 +11,8 @@
 #include "src/logging/counters.h"
 #include "src/tracing/traced-value.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 namespace tracing {

@@ -19,6 +19,8 @@
 #include "src/compiler/turboshaft/graph.h"
 #include "src/handles/handles-inl.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8::internal::compiler::turboshaft {
 
 const char* OpcodeName(Opcode opcode) {

@@ -11,6 +11,8 @@
 #include "src/objects/heap-object.h"
 #include "src/utils/allocation.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

@@ -4,6 +4,8 @@
 
 #include "src/compiler/turboshaft/optimization-phase.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8::internal::compiler::turboshaft {
 
 int CountDecimalDigits(uint32_t value) {

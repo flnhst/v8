@@ -9,6 +9,8 @@
 #include "src/codegen/assembler.h"
 #include "src/wasm/wasm-engine.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8::internal::wasm {
 
 class CachedAssemblerBuffer final : public AssemblerBuffer {

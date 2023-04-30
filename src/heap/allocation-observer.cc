@@ -7,6 +7,8 @@
 #include "src/heap/heap.h"
 #include "src/heap/spaces.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

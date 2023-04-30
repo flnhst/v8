@@ -18,6 +18,8 @@
     if (v8_flags.trace_wasm_streaming) PrintF(__VA_ARGS__); \
   } while (false)
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 namespace wasm {

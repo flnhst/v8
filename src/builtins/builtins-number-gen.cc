@@ -8,6 +8,8 @@
 #include "src/ic/binary-op-assembler.h"
 #include "src/ic/unary-op-assembler.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

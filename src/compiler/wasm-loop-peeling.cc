@@ -7,6 +7,8 @@
 #include "src/compiler/common-operator.h"
 #include "src/compiler/loop-analysis.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 namespace compiler {

@@ -4,6 +4,8 @@
 
 #include "src/wasm/stacks.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8::internal::wasm {
 
 // static

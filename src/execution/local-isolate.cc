@@ -11,6 +11,8 @@
 #include "src/logging/local-logger.h"
 #include "src/logging/runtime-call-stats-scope.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

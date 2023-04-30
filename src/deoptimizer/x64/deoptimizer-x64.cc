@@ -7,6 +7,8 @@
 #include "src/deoptimizer/deoptimizer.h"
 #include "src/execution/isolate-data.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

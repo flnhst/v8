@@ -7,6 +7,8 @@
 #include "src/compiler/node-origin-table.h"
 #include "src/compiler/turboshaft/graph-visualizer.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8::internal::compiler::turboshaft {
 
 JSONTurboshaftGraphWriter::JSONTurboshaftGraphWriter(

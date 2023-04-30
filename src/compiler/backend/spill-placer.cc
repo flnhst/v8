@@ -7,6 +7,8 @@
 #include "src/base/bits-iterator.h"
 #include "src/compiler/backend/register-allocator.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 namespace compiler {

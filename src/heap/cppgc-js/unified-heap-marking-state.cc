@@ -7,6 +7,8 @@
 #include "src/base/logging.h"
 #include "src/heap/mark-compact.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

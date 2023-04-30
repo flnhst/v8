@@ -7,6 +7,8 @@
 #include "src/flags/flags.h"
 #include "src/handles/handles-inl.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 namespace wasm {

@@ -21,6 +21,8 @@
 // This has to come after windows.h.
 #include <versionhelpers.h>  // For IsWindows8OrGreater().
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 namespace win64_unwindinfo {

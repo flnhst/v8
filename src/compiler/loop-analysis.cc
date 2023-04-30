@@ -16,6 +16,8 @@
 #include "src/wasm/wasm-code-manager.h"
 #endif
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

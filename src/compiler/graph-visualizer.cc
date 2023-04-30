@@ -27,6 +27,8 @@
 #include "src/objects/shared-function-info.h"
 #include "src/utils/ostreams.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 namespace compiler {

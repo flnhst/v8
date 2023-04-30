@@ -24,6 +24,8 @@
 #define DCHECK_OPERAND_IS_NOT_REG(op)
 #endif
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

@@ -19,6 +19,8 @@
 #include "src/base/platform/wrappers.h"
 #endif  // DEBUG && V8_OS_LINUX && !V8_OS_ANDROID
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

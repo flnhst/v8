@@ -6,6 +6,8 @@
 
 #include <iomanip>
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8::internal::compiler::turboshaft {
 
 void Graph::GenerateDominatorTree() {

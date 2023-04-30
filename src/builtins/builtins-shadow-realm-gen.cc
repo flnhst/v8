@@ -9,6 +9,8 @@
 #include "src/objects/js-shadow-realm.h"
 #include "src/objects/module.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

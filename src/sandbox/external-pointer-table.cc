@@ -12,6 +12,8 @@
 
 #ifdef V8_COMPRESS_POINTERS
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

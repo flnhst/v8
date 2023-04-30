@@ -29,6 +29,8 @@
 #include "src/utils/utils.h"
 #include "src/zone/zone-containers.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8::internal::compiler::turboshaft {
 
 namespace {

@@ -9,6 +9,8 @@
 #include "src/heap/memory-allocator.h"
 #include "src/heap/memory-chunk.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

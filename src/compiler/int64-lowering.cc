@@ -19,6 +19,8 @@
 #include "src/wasm/wasm-subtyping.h"
 #include "src/zone/zone.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 namespace compiler {

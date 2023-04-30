@@ -10,6 +10,8 @@
 #include "src/heap/factory.h"
 #include "src/utils/memcopy.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

@@ -20,6 +20,8 @@
 #include "src/objects/shared-function-info.h"
 #include "src/runtime/runtime.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 

@@ -11,6 +11,8 @@
 #include "src/utils/memcopy.h"
 #include "src/utils/utils.h"
 
+#include "src/objects/fixed-array-inl.h"
+
 namespace v8 {
 namespace internal {
 
