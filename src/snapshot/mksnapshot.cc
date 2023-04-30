@@ -75,9 +75,7 @@ class SnapshotFileWriter {
     fprintf(fp, "#include \"src/init/v8.h\"\n");
     fprintf(fp, "#include \"src/base/platform/platform.h\"\n\n");
     fprintf(fp, "#include \"src/snapshot/snapshot.h\"\n\n");
-    fprintf(fp, "#include "src/objects/fixed-array-inl.h"
-
-namespace v8 {\n");
+    fprintf(fp, "namespace v8 {\n");
     fprintf(fp, "namespace internal {\n\n");
   }
 
