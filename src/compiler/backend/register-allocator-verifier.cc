@@ -364,10 +364,14 @@ bool BlockAssessments::IsStaleReferenceStackSlot(InstructionOperand op) {
 
 void BlockAssessments::Print() const {
   StdoutStream os;
+#ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wrange-loop-construct"
+#endif
   for (const auto& pair : map()) {
+#ifdef __clang__
 #pragma clang diagnostic pop
+#endif
     const InstructionOperand op = pair.first;
     const Assessment* assessment = pair.second;
     // Use operator<< so we can write the assessment on the same
