@@ -2097,10 +2097,10 @@ class ResourceAvailableCurrencies {
     UErrorCode status = U_ZERO_ERROR;
     int32_t len = 0;
     const UChar* result =
-        ucurr_getName(code.getTerminatedBuffer(), "en", UCURR_LONG_NAME,
+        ucurr_getName((const UChar*)code.getTerminatedBuffer(), "en", UCURR_LONG_NAME,
                       nullptr, &len, &status);
     if (U_SUCCESS(status) &&
-        u_strcmp(result, code.getTerminatedBuffer()) != 0) {
+        u_strcmp(result, (const UChar*)code.getTerminatedBuffer()) != 0) {
       list_.push_back(currency);
     }
   }

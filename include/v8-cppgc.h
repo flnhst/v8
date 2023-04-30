@@ -76,7 +76,7 @@ struct WrapperDescriptor final {
   uint16_t embedder_id_for_garbage_collected;
 };
 
-struct V8_EXPORT CppHeapCreateParams {
+struct /* V8_EXPORT */ CppHeapCreateParams {
   std::vector<std::unique_ptr<cppgc::CustomSpaceBase>> custom_spaces;
   WrapperDescriptor wrapper_descriptor;
   /**
