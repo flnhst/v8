@@ -7,9 +7,9 @@
 #include "src/execution/isolate.h"
 #include "src/execution/simulator.h"
 
-#if defined(USE_SIMULATOR)
-
 #include "src/objects/fixed-array-inl.h"
+
+#if defined(USE_SIMULATOR)
 
 namespace v8 {
 namespace internal {
