@@ -11597,6 +11597,11 @@ static void FastApiCallback_TrivialSignature(
       args[0]->Int32Value(isolate->GetCurrentContext()).FromJust() + 1);
 }
 
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunneeded-internal-declaration"
+#endif
+
 static void FastApiCallback_SimpleSignature(
     const v8::FunctionCallbackInfo<v8::Value>& args) {
   ApiTestFuzzer::Fuzz();
@@ -11619,6 +11624,9 @@ static void FastApiCallback_SimpleSignature(
       args[0]->Int32Value(isolate->GetCurrentContext()).FromJust() + 1);
 }
 
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 
 // Helper to maximize the odds of object moving.
 static void GenerateSomeGarbage() {
