@@ -7,6 +7,7 @@
 
 #include <limits>
 #include <type_traits>
+#include <stdint.h>
 
 #include "src/base/compiler-specific.h"
 #include "src/base/logging.h"
