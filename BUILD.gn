@@ -1304,6 +1304,10 @@ config("toolchain") {
 
       # TODO(v8:12245): Fix shadowing instances and remove.
       "-Wno-shadow",
+
+      # Celaeno: our additions:
+      "-Wno-pessimizing-move",
+      "-Wno-array-bounds="
     ]
 
     if (v8_current_cpu == "x64" || v8_current_cpu == "arm64" ||
