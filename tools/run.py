@@ -8,6 +8,10 @@ scripts."""
 
 import subprocess
 import sys
+import os
+import pprint
+
+pprint.pprint(os.environ)
 
 result = subprocess.call(sys.argv[1:])
 if result != 0:
