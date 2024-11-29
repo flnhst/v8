@@ -11,7 +11,9 @@ import sys
 import os
 import pprint
 
-pprint.pprint(os.environ)
+pprint.pprint(dict(os.environ))
+
+os.environ['LD_LIBRARY_PATH'] = os.path.join(os.environ['VCPKG_INSTALLED_DIR'], "lib")
 
 result = subprocess.call(sys.argv[1:])
 if result != 0:
